@@ -11,18 +11,15 @@
 /* ----------------------------------------------- */
 
 #include "MGCVocoder.h"
-
+    
 /*  -------------------------- vocoder ----------------------------  */
-
 #ifndef PI
 #define PI  3.14159265358979323846
-#endif                          /* !PI */
+#endif				/* !PI */
 #ifndef PI2
 #define PI2 6.28318530717958647692
-#endif                          /* !PI2 */
-
+#endif				/* !PI2 */
 #define RANDMAX 32767
-
 #define IPERIOD 1
 #define SEED    1
 #define B0      0x00000001
@@ -33,7 +30,6 @@
 #define GAUSS     TRUE
 #define PADEORDER 5
 #define IRLENG    96
-
 /* for MGLSA filter */
 #define NORMFLG1 TRUE
 #define NORMFLG2 FALSE
